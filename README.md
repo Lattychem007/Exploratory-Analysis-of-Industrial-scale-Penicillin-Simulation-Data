@@ -1,1 +1,1 @@
-# ExploratoryA nalysis of Industrial-scale Penicillin Simulation Data
+# Exploratory Analysis of Industrial-scale Penicillin Simulation Data
