@@ -1,5 +1,6 @@
 
 # Exploratrory Analysis of the Industrial-scale Penicillin Fermentation  Simulation Dataset
+![image](https://github.com/user-attachments/assets/ed0c066d-1e0f-4904-93c1-523de35da7b1)
 
 INTRODUCTION
 
@@ -27,7 +28,8 @@ This paper was published in the Journal of Biotechnology, describes the developm
 2) "Modern day monitoring and control challenges outlined on an industrial-scale benchmark fermentation process"
 
 This paper was published in Computers & Chemical Engineering, discusses about the challenges of monitoring and controlling an industrial-scale benchmark fermentation process. The authors identify several challenges, including the need for real-time monitoring of key process variables, the need for effective control strategies, and the need for robust and reliable sensors.
-
+## Data Source
+  https://data.mendeley.com/datasets/npt257bjxn/1
 ## DATA UNDERSTANDING
 In this dataset, we find a multitude of data included in 113,935 rows that provide a thorough examination of inputs and outcomes over 100 different batches. Every batch is carefully recorded at different points in time, resulting in a dynamic log of industrial operations and how they change over time. This large-scale dataset offers a priceless chance to explore the complex interactions between input factors and outputs in a variety of manufacturing scenarios.
 
