@@ -1,5 +1,5 @@
 
-# Exploratrory Analysis of the Industrial-scale Penicillin Fermentation  Simulation Dataset
+# Exploratory Analysis of the Industrial-scale Penicillin Fermentation  Simulation Dataset
 ![image](https://github.com/user-attachments/assets/ed0c066d-1e0f-4904-93c1-523de35da7b1)
 
 INTRODUCTION
