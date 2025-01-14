@@ -2,7 +2,7 @@
 # Exploratory Analysis of the Industrial-scale Penicillin Fermentation  Simulation Dataset
 ![image](https://github.com/user-attachments/assets/ed0c066d-1e0f-4904-93c1-523de35da7b1)
 
-INTRODUCTION
+**INTRODUCTION**
 
 The Industrial-scale Penicillin Simulation Version model significantly advances industrial fermentation, aiding in the development of improved control strategies and contributing to research and educational studies.
 
@@ -35,51 +35,68 @@ In this dataset, we find a multitude of data included in 113,935 rows that provi
 
 ##  Identifying the Batch with Maximun Pencillin Concentarion.
 #Process parameters/Information Insight from The Dataset
-Time (h): The average time is roughly 227.87 hours, with time intervals ranging from 167 to 290 hours.
-Aeration rate (Fg:L/h): The average aeration rate is roughly 65.35 L/h, with a range of 60 to 75 L/h.
-Agitator RPM (RPM:RPM): For every batch, the agitator RPM remains at 100 RPM.
-Sugar feed rate (Fs:L/h): The average sugar feed rate is roughly 81.80 L/h, with a range of 20 to 150 L/h.
-Acid flow rate (Fa:L/h): The average acid flow rate is roughly 0.16 L/h, with a range of 0 to 4.15 L/h.
-Base flow rate (Fb:L/h): The average base flow rate is roughly 37.79 L/h, with a range of 0 to 200.30 L/h.
-Heating/Cooling Water Flow Rate (Fc:L/h): The average rate of the heating/cooling water flow is roughly 47.04 L/h, with a range of 0.0001 to 281.71 L/h. 
+**Time (h):** 
+The average time is roughly 227.87 hours, with time intervals ranging from 167 to 290 hours.
+**Aeration rate (Fg:L/h):**
+The average aeration rate is roughly 65.35 L/h, with a range of 60 to 75 L/h.
+**Agitator RPM (RPM:RPM):**
+For every batch, the agitator RPM remains at 100 RPM.
+**Sugar feed rate (Fs:L/h):**
+The average sugar feed rate is roughly 81.80 L/h, with a range of 20 to 150 L/h.
+**Acid flow rate (Fa:L/h):**
+The average acid flow rate is roughly 0.16 L/h, with a range of 0 to 4.15 L/h.
+**Base flow rate (Fb:L/h):**
+The average base flow rate is roughly 37.79 L/h, with a range of 0 to 200.30 L/h.
+**Heating/Cooling Water Flow Rate (Fc:L/h):**
+The average rate of the heating/cooling water flow is roughly 47.04 L/h, with a range of 0.0001 to 281.71 L/h. 
+**Heating Water Flow Rate (Fh:L/h):**
+The average heating water flow rate is about 42.47 L/h, with a range of 0.0001 to 444.28 L/h.
+**Water for Injection/Dilution (Fw:L/h):**
+The average rate of water for injection/dilution is 224 L/h, with a range of 0 to 400 L/h. 
 
-Heating Water Flow Rate (Fh:L/h): The average heating water flow rate is about 42.47 L/h, with a range of 0.0001 to 444.28 L/h.
-Water for Injection/Dilution (Fw:L/h): The average rate of water for injection/dilution is 224 L/h, with a range of 0 to 400 L/h. 
+**Air Head Pressure (pressure:bar):**
+For every batch, the air head pressure stays at 0.9 bar. 
 
-Air Head Pressure (pressure:bar): For every batch, the air head pressure stays at 0.9 bar. 
+**Dumped Broth Flow (Deleted: L/h):**
+The average dumped broth flow is -400 L/h, with a range of -4000 to 0 L/h. 
 
-Dumped Broth Flow (Deleted: L/h): The average dumped broth flow is -400 L/h, with a range of -4000 to 0 L/h. 
-
-Substance Concentration (S:g/L): The average substrate concentration is roughly 19.39 g/L, with a range of 0.0011 to 115.27 g/L. 
-
-Dissolved Oxygen Content (DO2:mg/L): The average dissolved oxygen content is around 12.72 mg/L, with a range of 8.87 to 14.77 mg/L. 
-Concentration of Penicillin (P:g/L): The average penicillin concentration is about 24.01 g/L, with a range of 3.16 to 36.16 g/L.
-Vessel Volume (V:L): The average vessel volume is roughly 76053.54 liters, with a range of 60331 to 89990 liters. 
-
-Vessel Weight (Wt:Kg): The average vessel weight is roughly 84995.10 kg, with a range of 68469 to 99491 kg. 
-pH (pH:pH): The average pH is roughly 6.51, with values ranging from 6.47 to 6.68. 
-
-Temperature (T:K): The average temperature is roughly 297.97 K, with a range of 297.43 to298.99 K. 
-
-Heat Generated (Q:kJ): The heat generated ranges from 4.03 to 833.80 kJ.
-Off-Gas Carbon Dioxide Percentage (CO2outgas:%): The average off-gas carbon dioxide percentage is roughly 1.45%, with a range of 0.64% to 2.06%. 
-PAA Flow (Fpaa:L/h): The average PAA flow is roughly 6.58 L/h, with a range of 3.66 to 15 L/h.
+**Substance Concentration (S:g/L):**
+The average substrate concentration is roughly 19.39 g/L, with a range of 0.0011 to 115.27 g/L. 
+**Dissolved Oxygen Content (DO2:mg/L):**
+The average dissolved oxygen content is around 12.72 mg/L, with a range of 8.87 to 14.77 mg/L. 
+**Concentration of Penicillin (P:g/L):**
+The average penicillin concentration is about 24.01 g/L, with a range of 3.16 to 36.16 g/L.
+**Vessel Volume (V:L):**
+The average vessel volume is roughly 76053.54 liters, with a range of 60331 to 89990 liters. 
+**Vessel Weight (Wt:Kg):**
+The average vessel weight is roughly 84995.10 kg, with a range of 68469 to 99491 kg. 
+**pH (pH:pH):**
+The average pH is roughly 6.51, with values ranging from 6.47 to 6.68. 
+**Temperature (T:K):**
+The average temperature is roughly 297.97 K, with a range of 297.43 to298.99 K. 
+**Heat Generated (Q:kJ):**
+The heat generated ranges from 4.03 to 833.80 kJ.
+**Off-Gas Carbon Dioxide Percentage (CO2outgas:%):**
+The average off-gas carbon dioxide percentage is roughly 1.45%, with a range of 0.64% to 2.06%. 
+**PAA Flow (Fpaa:L/h):**
+The average PAA flow is roughly 6.58 L/h, with a range of 3.66 to 15 L/h.
 In offline mode, PAA concentration (PAA_offline:PAA (g L^{-1})): The average PAA concentration is around 3358.13 g/L, with a range of 393.1 to 11524 g/L. 
-
-Oil Flow (Foil: L/hr): For every batch, the oil flow remains constant at 23 L/hr. 
-
-(NH3_offline:NH3 (g L^{-1})) NH3 Concentration Off-line: The average NH3 content is roughly 2571.96 g/L, with a range of 1590.6 to 5170 g/L. 
-
-Oxygen Absorption Rate (OUR:(g min^{-1})): The average oxygen absorption rate is roughly 0.94 g/min, with a range of 0.0447 to 1.7044 g/min. 
-
-Oxygen in Percent in Off-Gas (O2:O2 (%)): The oxygen percentage in off-gas ranges from 0.1863% to 0.2035%, with an average of approximately 0.1942%.
-
-Offline Penicillin Concentration (P_offline:P(g L^{-1})): The offline penicillin concentration varies from 3.17 to 36.18 g/L, with an average of approximately 24.03 g/L
-.
-Offline Biomass Concentration (X_offline:X(g L^{-1})): The offline biomass concentration ranges from 10.76 to 25.27 g/L, with an average of approximately 20.80 g/L.
-Carbon Evolution Rate (CER:g/h): The carbon evolution rate varies from 0.49 to 1.71 g/h, with an average of approximately 1.21 g/h.
-
-Ammonia Shots (NH3_shots:kgs): The ammonia shots are constant at 0 kgs for all batches.
+**Oil Flow (Foil: L/hr):**
+For every batch, the oil flow remains constant at 23 L/hr. 
+**(NH3_offline:NH3 (g L^{-1}))NH3 Concentration Off-line:**
+The average NH3 content is roughly 2571.96 g/L, with a range of 1590.6 to 5170 g/L. 
+**Oxygen Absorption Rate (OUR:(g min^{-1})):**
+The average oxygen absorption rate is roughly 0.94 g/min, with a range of 0.0447 to 1.7044 g/min. 
+**Oxygen in Percent in Off-Gas (O2:O2 (%)):**
+The oxygen percentage in off-gas ranges from 0.1863% to 0.2035%, with an average of approximately 0.1942%.
+**Offline Penicillin Concentration (P_offline:P(g L^{-1})):**
+The offline penicillin concentration varies from 3.17 to 36.18 g/L, with an average of approximately 24.03 g/L
+**Offline Biomass Concentration (X_offline:X(g L^{-1})):**
+The offline biomass concentration ranges from 10.76 to 25.27 g/L, with an average of approximately 20.80 g/L.
+***Carbon Evolution Rate (CER:g/h):** 
+The carbon evolution rate varies from 0.49 to 1.71 g/h, with an average of approximately 1.21 g/h.
+**Ammonia Shots (NH3_shots:kgs):**
+The ammonia shots are constant at 0 kgs for all batches.
 Viscosity (Viscosity_offline:centPoise): The viscosity ranges from 53.75 to 117.93 centipoise, with an average of approximately 71.06 centipoise.
 
 # Maximum concentration of Penicillin
